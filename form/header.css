@@ -1,0 +1,33 @@
+.header {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+}
+.header__item {
+  flex: 0 1 50%;
+}
+.header__item.image__item {
+  background: url("./images/bg.png") center/cover no-repeat;
+}
+.header__item.info__item {
+  padding: 65px 100px;
+  display: flex;
+  flex-direction: column;
+}
+.header__btn {
+  padding: 18px 30px;
+}
+
+.logo {
+  padding-bottom: 89px;
+  display: flex;
+}
+
+.sign__in {
+  margin-top: auto;
+  color: #747887;
+}
+.sign__in a {
+  color: #EB3D35;
+  font-weight: 600;
+}/*# sourceMappingURL=header.css.map */

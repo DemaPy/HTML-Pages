@@ -1,0 +1,47 @@
+@import "./vars.scss";
+
+
+
+.header {
+
+    display: flex;
+    height: 100vh;
+    width: 100%;
+
+    &__item {
+        flex: 0 1 50%;
+
+        &.image__item {
+            background: url('./images/bg.png') center/ cover no-repeat;
+        }
+
+        &.info__item {
+            padding: 65px 100px;
+            display: flex;
+            flex-direction: column;
+        }
+    }
+
+    &__btn {
+        padding: 18px 30px;
+    }
+
+}
+
+
+.logo {
+    padding-bottom: 89px;
+    display: flex;
+}
+
+
+
+.sign__in {
+    margin-top: auto;
+    color: $gray;
+
+    a {
+        color: $red;
+        font-weight: 600;
+    }
+}

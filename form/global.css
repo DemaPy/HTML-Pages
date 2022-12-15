@@ -1,0 +1,74 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+body.locked {
+  overflow: hidden;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: white;
+  padding: 18px 48px;
+  gap: 40px;
+  background-color: #EB3D35;
+  max-width: -webkit-fit-content;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+  transition: all 0.3s ease-in-out;
+}
+.btn svg {
+  transition: all 0.3s ease-in-out;
+}
+.btn:hover {
+  background-color: #ce362e;
+}
+.btn:hover svg {
+  transform: translateX(10px) scale(1.02);
+}
+
+.btn__outline {
+  padding: 18px 48px;
+  border: 1px solid #E5E4E1;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #051655;
+  background-color: white;
+  transition: all 0.3s ease-in-out;
+}
+.btn__outline:hover {
+  background-color: #051655;
+  color: white;
+  border: 1px solid #051655;
+}
+
+.section__title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 56px;
+  color: #051655;
+  margin-bottom: 10px;
+}
+.section__text {
+  font-style: normal;
+  font-weight: 375;
+  font-size: 20px;
+  line-height: 22px;
+  color: #747887;
+  margin-bottom: 40px;
+}
+
+main {
+  padding: 50px 200px;
+}
+
+@-webkit-keyframes fade {}
+
+@keyframes fade {}/*# sourceMappingURL=global.css.map */

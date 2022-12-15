@@ -1,0 +1,68 @@
+@import './vars';
+
+.steps {
+
+
+
+    &__form {
+
+    }
+
+    &__numbers {
+        display: flex;
+        align-items: center;
+
+        position: relative;
+        max-width: 650px;
+    }
+}
+
+.progress {
+
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background-color: $lightGray;
+    z-index: -1;
+
+
+    &__success {
+
+    }
+}
+
+
+.step {
+
+
+    &__number {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 100%;
+
+        border: 2px solid $lightGray;
+        width: 50px;
+        height: 50px;
+        margin-right: 100px;
+
+        flex-shrink: 0;
+        background-color: $white;
+    }
+
+
+    &__buttons {
+        display: flex;
+        gap: 20px;
+        margin-top: 80px;
+    }
+}
+
+.form {
+
+    &__step {
+
+    }
+}
